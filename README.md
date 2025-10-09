@@ -32,7 +32,6 @@ GitやGitHub、Forkを使うと、ファイルの変更履歴を残したり、�
 直接Gitを操作するよりも簡単に操作できるのが主な利点となります。  
 <br/>
 ### 2-2.ツールの用意
-  
 まず、GitHubの使用にはアカウントが必要となります。  
 個人で使う場合には個人のメールアドレスを、組織としてGitHub Copilot等を使用する場合は組織のメールを登録しましょう。  
 組織のアカウントの利用は一時的なことが多いので加味して判断してください。  
@@ -50,6 +49,19 @@ Forkを開きCloneからPC上の任意のフォルダにファイルを作成し
 <br/>
 <br/>
 ### 2-3.ツールの使用
+さぁようやく用意ができました。早速テキストを追加してみましょう！<br/>
+テキストを追加したらForkにも更新されます。<br/>
+<img width="802" height="527" alt="スクリーンショット 2025-10-10 041429" src="https://github.com/user-attachments/assets/1dbe21bb-f283-4989-a85c-77c2ca35c329" />
+<br/>
+<br/>
+次に追加したテキストをPCからGitHubに更新してみましょう。  
+テキストを選択した状態でStageを押す。
+subjectとDescriptionを書く。
+commitを押します。
+<img width="1919" height="1004" alt="スクリーンショット 2025-10-10 042508" src="https://github.com/user-attachments/assets/0a3582df-f855-4279-9797-b17797e51df7" />
+上記が完了したらPush and Create Pull Requestを押します。
+<img width="1853" height="1079" alt="スクリーンショット 2025-10-10 042607" src="https://github.com/user-attachments/assets/c438d487-95e8-41c1-ad6c-306964d5c60b" />
+
 
 
 ---
