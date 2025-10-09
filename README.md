@@ -61,7 +61,10 @@ commitを押します。
 <img width="1919" height="1004" alt="スクリーンショット 2025-10-10 042508" src="https://github.com/user-attachments/assets/0a3582df-f855-4279-9797-b17797e51df7" />
 上記が完了したらmainの上で右クリックでメニューを開き、Push and Create Pull Requestを押します。
 <img width="1853" height="1079" alt="スクリーンショット 2025-10-10 042607" src="https://github.com/user-attachments/assets/c438d487-95e8-41c1-ad6c-306964d5c60b" />
-
+<br/>
+<br/>
+GitHubを確認してみると...**追加されてるぜ！**
+<img width="960" height="668" alt="スクリーンショット 2025-10-10 044045" src="https://github.com/user-attachments/assets/e191a0b9-4fe5-4642-ad3f-03203c9dea1c" />
 
 
 ---
