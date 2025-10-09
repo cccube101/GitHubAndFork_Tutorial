@@ -10,6 +10,12 @@
 - 2-2.ツールの用意
 - 2-3.ツールの使用
 
+3. Git解説
+- 3-1.解説
+- 3-2.用語集
+
+4. まとめ
+
 ---
 
 ## 1. 💡概要
@@ -46,8 +52,9 @@ GitやGitHub、Forkを使うと、ファイルの変更履歴を残したり、�
 作成できたら、CodeのHTTPSにあるURLをコピーします。  
 Forkを開きCloneからPC上の任意のフォルダにファイルを作成します。
 <img width="1405" height="733" alt="スクリーンショット 2025-10-10 040011" src="https://github.com/user-attachments/assets/f353c387-82e9-48a8-a6a6-c501a076e50e" />
-<br/>
-<br/>
+
+---
+
 ### 2-3.✍️ツールの使用
 さぁようやく用意ができました。早速テキストを追加してみましょう！<br/>
 テキストを追加したらForkにも更新されます。<br/>
@@ -64,12 +71,76 @@ commitを押します。
 <br/>
 <br/>
 GitHubを確認してみると...**追加されてるぜ！**
-<img width="960" height="668" alt="スクリーンショット 2025-10-10 044045" src="https://github.com/user-attachments/assets/e191a0b9-4fe5-4642-ad3f-03203c9dea1c" />
 
 
 ---
-## 3.解説
 
+次はブランチを作ってみましょう。  
+上部のBranchを押す。  
+ **「fix/Edit_Text」** と入力 Create and CheckOutを押します。
+<img width="1786" height="1039" alt="image" src="https://github.com/user-attachments/assets/f6dca358-3c66-4388-921d-b8eb0c92ed66" />
+Branchesの中で選択しているチェックマークがEdit_Textになっているか確認しましょう。  
+確認できたらテキストを開いて中に記述してみましょう。  
+テキストを更新し、Forkがこんな風に更新されます。
+<img width="938" height="546" alt="スクリーンショット 2025-10-10 051139" src="https://github.com/user-attachments/assets/42cac8f9-00e1-4e53-95a7-6caf8f7800e6" />
+先程GitHub側に更新したようにPull Requestまでやって見ましょう。
+勝手にブラウザでGitHubが開きます。
+<br/>
+緑色のボタンを Create → Merge → Confirm の順に押していきます。
+<img width="960" height="627" alt="スクリーンショット 2025-10-10 051210" src="https://github.com/user-attachments/assets/f13cdbdf-1df8-4b22-b4f5-82ce1b6d6b46" />
+<img width="960" height="629" alt="スクリーンショット 2025-10-10 051228" src="https://github.com/user-attachments/assets/6d2ada07-7db5-403f-b310-ddee2f03f048" />
+<img width="960" height="557" alt="スクリーンショット 2025-10-10 051240" src="https://github.com/user-attachments/assets/c0511ebd-1e7f-42e1-b007-04672c4d29f5" />
+これでGitHubにブランチのデータを送ることができました！  
+<br/>
+この変更を自分のPCのmainに更新します。  
+Branchesの中で選択しているチェックマークをmainに変更しましょう。  
+上部のFetchを押して画面が変わったなーと確認したらPullを押します。  
+<img width="938" height="546" alt="スクリーンショット 2025-10-10 051329" src="https://github.com/user-attachments/assets/27afeb6c-cff5-4c0b-a98b-540ef8e799e2" />
+
+これでPCにデータを更新できました！！！
+<br/>
+<br/>
+<br/>
+<br/>
+...............
+<br/>
+<br/>
+<br/>
+<br/>
+
+# いやわかんねぇよ！日本語で話せよ！！！
+当時の僕もやってて頭沸騰しそうでした。なんじゃこれです。
+<br/>
+次は今までやってきたことの解説を僕の解釈で簡単に説明します
+<br/>
+<br/>
+
+---
+
+## 3.Git解説
+### 3-1.🔎解説  
+何度も言っていますがあくまで僕の自己解釈です。  
+説明のために省略してる部分や微妙に違うニュアンスになっている部分があります。  
+<br/>
+まずリポジトリです。  
+Git特有の保存場所です。  
+主にリモートとローカルに分かれオリジナルとなるリポジトリを複製することをクローンと言います。  
+他のリポジトリのデータに影響を与えず自分の作業をする際にはブランチを使用します。  
+<img width="1280" height="602" alt="スライド7" src="https://github.com/user-attachments/assets/6afd0006-d26d-4a43-839c-9919c9c80521" />
+ブランチのデータをリモートやそこからクローンしている人に受け渡す流れです。  
+マージされた物はフェッチでどう更新されたか確認し、プルで自分のデータに反映させます。  
+<img width="1280" height="597" alt="スライド8" src="https://github.com/user-attachments/assets/351e903e-baef-4f39-9c4b-98ef6b7b8fe6" />
+マージする際には、コンフリクトにも注意しなければなりません。  
+同じデータを同時に修正することはできないと思ってください。  
+<img width="1280" height="598" alt="スライド9" src="https://github.com/user-attachments/assets/67e8c868-4083-4b74-9223-5710ed6498ed" />
+<br/>
+<br/>
+
+---
+
+### 3-2.🧾用語集
+
+<br/>
 
 | 用語 | 意味 |
 |------|------|
@@ -80,4 +151,17 @@ GitHubを確認してみると...**追加されてるぜ！**
 | **ブランチ (Branch)** | メインデータとは別の作業用コピー。安全に試すための枝分かれ。 |
 | **マージ (Merge)** | ブランチで行った作業をメインに統合する。 |
 
+---
+
+## 4.まとめ
+お疲れさまでした。
+実際に運用してみると、さまざまな課題や悩みが出てくると思います。  
+<br/>
+今回紹介した手法は「バージョン管理」と呼ばれるもので、これに関する詳しいドキュメントや解説は数多く公開されています。  
+より高度な運用方法やチームでの活用については、そうした資料を参考にしてみてください。  
+<br/>
+今回はその第一歩として、初歩的な導入体験をしていただきました。  
+それでは、良いデータ管理ライフを！ 🌱  
+<br/>
+<br/>
 icon by [icon8](https://icons8.jp/icons)
