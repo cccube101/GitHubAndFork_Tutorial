@@ -31,7 +31,14 @@ Git・GitHub・Forkを使えば、
 ## 2. 🧰 ツールを使用する
 
 ### 2-1. 🧩 説明  
-Gitを直接操作するよりも、**GUIツール（Forkなど）を使うと操作が比較的簡単**です。  
+Gitを使用せずにTeamsでデータ管理した場合とGitを使用したときの違いは簡単に捉えると以下のようになります。  
+  
+それぞれがプロジェクトを管理しています。
+<img width="1280" height="551" alt="スライド4" src="https://github.com/user-attachments/assets/9e77cf28-3e7a-4fd1-8fae-8284beaa9618" />
+1つのプロジェクトをそれぞれが修正していきます。
+<img width="1280" height="557" alt="スライド5" src="https://github.com/user-attachments/assets/b187fbf5-c9c7-4dda-8ce5-e54ef42c4a55" />
+  
+また、Gitを直接操作するよりも、**GUIツール（Forkなど）を使うと操作が比較的簡単**です。  
 
 <img width="1280" height="383" alt="スライド6" src="https://github.com/user-attachments/assets/652d54a9-e149-4c2f-84b9-6815c4a80ffc" />
 
@@ -117,7 +124,7 @@ Forkを開き、「Clone」からPC上の任意フォルダへファイルを作
 これで **ブランチの変更がGitHubに反映** されました 🎉  
 
 最後に、`main` に戻って **Fetch → Pull** でローカルを更新します。  
-<img width="938" height="546" alt="スクリーンショット 2025-10-10 051329" src="https://github.com/user-attachments/assets/27afeb6c-cff5-4c0b-a98b-540ef8e799e2" />
+<img width="1235" height="720" alt="Fetch" src="https://github.com/user-attachments/assets/225b7fb1-1a1c-4a71-8035-4e332fc5dd08" />
 
 ✅ これで **ローカルも最新状態に！**  
 <img width="944" height="668" alt="スクリーンショット 2025-10-10 044045" src="https://github.com/user-attachments/assets/b3fe01fc-25b1-4982-b488-6efc2bb1fc55" />
